@@ -8,10 +8,10 @@ Current studies on representation learning for POI recommendation embed both use
 
 TransTL：
 -----
-models the spatial and temporal information as a relationship connecting users and POIs
-- the embedding of a <time, location> pair corresponds to a translation from embeddings of users to POIs. Since the POI embedding should
-be close to the user embedding plus the relationship vector (TransR)
--the recommendation can be performed by selecting the top-k POIs similar to the translated POI, which are all of the same type of objects.
+models the spatial and temporal information as a relationship connecting users and POIs\<br>
+ - the embedding of a <time, location> pair corresponds to a translation from embeddings of users to POIs. Since the POI embedding should
+be close to the user embedding plus the relationship vector (TransR)\<br>
+ -the recommendation can be performed by selecting the top-k POIs similar to the translated POI, which are all of the same type of objects.\<br>
 
 datasets:
 ------
